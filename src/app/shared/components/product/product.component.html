@@ -1,0 +1,41 @@
+<header class="text-center text-capitalize my-5">
+    <h1 class="alert alert-success">
+        creating list by using <strong>angular</strong>
+    </h1>
+</header>
+
+<p class="alert alert-danger text-center mb-5">
+    This is product <strong>{{productName}}</strong> and 
+    whose id is <strong>{{productId}}</strong>
+</p>
+
+
+    <ul class="list-group mb-5 w-50 ">
+        <li class="list-group-item bg-dark text-white text-center" *ngFor="let c of team">
+            Indian cricket team members <strong>{{c}}</strong>
+        </li>
+    </ul>
+    
+    <ul class="list-group mb-5 w-50">
+        <li class="list-group-item bg-info text-white text-center" *ngFor="let skill of skills">
+            I Love <strong>{{skill}} </strong>
+        </li>
+    </ul>
+    
+    <ul class="list-group mb-5 w-50">
+        <li class="list-group-item bg-danger text-white text-center" *ngFor="let t of members">
+            This is my team member <strong>{{t}}</strong> who is having good quality
+        </li>
+    </ul>
+    
+    <ul class="list-group mb-5 w-50">
+        <li class="list-group-item bg-primary text-white text-center" *ngFor="let l of leaders">
+            These are our role model <strong>{{l}}</strong>
+        </li>
+    </ul>
+
+    <ul class="list-group mb-5 w-50">
+        <li class="list-group-item bg-warning text-center" *ngFor="let b of brands">
+            one of the most branded mobile is <strong>{{b}}</strong>
+        </li>
+    </ul>
